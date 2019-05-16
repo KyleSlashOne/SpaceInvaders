@@ -1,6 +1,6 @@
 #pragma once
 #include "Game.h"
-#include "ECS.h"
+#include "ECS/ECS.h"
 
 class Layout
 {

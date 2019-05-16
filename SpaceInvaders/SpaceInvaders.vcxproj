@@ -18,6 +18,32 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AssetManager.cpp" />
+    <ClCompile Include="src\Collision.cpp" />
+    <ClCompile Include="src\ECS\ECS.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\Layout.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\TextureManager.cpp" />
+    <ClCompile Include="src\Vector2D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AssetManager.h" />
+    <ClInclude Include="src\Collision.h" />
+    <ClInclude Include="src\ECS\ColliderComponent.h" />
+    <ClInclude Include="src\ECS\Components.h" />
+    <ClInclude Include="src\ECS\ECS.h" />
+    <ClInclude Include="src\ECS\KeyboardController.h" />
+    <ClInclude Include="src\ECS\ProjectileComponent.h" />
+    <ClInclude Include="src\ECS\SpriteComponent.h" />
+    <ClInclude Include="src\ECS\TransformComponent.h" />
+    <ClInclude Include="src\ECS\UILabelComponent.h" />
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\Layout.h" />
+    <ClInclude Include="src\TextureManager.h" />
+    <ClInclude Include="src\Vector2D.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{8BDF9B06-B7E9-4B82-81F0-11C23E10E12B}</ProjectGuid>
@@ -120,32 +146,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="AssetManager.h" />
-    <ClInclude Include="ColliderComponent.h" />
-    <ClInclude Include="Collision.h" />
-    <ClInclude Include="Components.h" />
-    <ClInclude Include="ECS.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="KeyboardController.h" />
-    <ClInclude Include="Layout.h" />
-    <ClInclude Include="ProjectileComponent.h" />
-    <ClInclude Include="TransformComponent.h" />
-    <ClInclude Include="SpriteComponent.h" />
-    <ClInclude Include="TextureManager.h" />
-    <ClInclude Include="UILabelComponent.h" />
-    <ClInclude Include="Vector2D.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="AssetManager.cpp" />
-    <ClCompile Include="Collision.cpp" />
-    <ClCompile Include="ECS.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Layout.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="TextureManager.cpp" />
-    <ClCompile Include="Vector2D.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

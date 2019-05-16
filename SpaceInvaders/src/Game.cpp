@@ -1,6 +1,6 @@
 #include "Game.h"
 #include "TextureManager.h"
-#include "Components.h"
+#include "ECS/Components.h"
 #include "Vector2D.h"
 #include "Collision.h"
 #include "AssetManager.h"

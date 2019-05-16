@@ -1,4 +1,4 @@
-//Space Invaders Game built in c++ and using SDL2
+//Space Invaders Game built in C++ with SDL2
 
 #include "Game.h"
 

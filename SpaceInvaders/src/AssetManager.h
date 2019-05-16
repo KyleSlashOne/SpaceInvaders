@@ -3,7 +3,7 @@
 #include <string>
 #include "TextureManager.h"
 #include "Vector2D.h"
-#include "ECS.h"
+#include "ECS/ECS.h"
 #include "SDL_ttf.h"
 
 class AssetManager

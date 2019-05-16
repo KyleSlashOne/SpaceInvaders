@@ -1,5 +1,5 @@
 #include "Collision.h"
-#include "ColliderComponent.h"
+#include "ECS/ColliderComponent.h"
 
 //Axis-Aligned Bounding Box Collision Detection
 bool Collision::AABB(const SDL_Rect& recA, const SDL_Rect& recB)
